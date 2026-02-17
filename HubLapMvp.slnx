@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="HubLabMvp.Models/HubLabMvp.Models.csproj" />
+  <Project Path="HubLapMvp.Business/HubLapMvp.Business.csproj" />
+  <Project Path="HubLapMvp.Data/HubLapMvp.Data.csproj" />
+  <Project Path="HubLapMvp.Web/HubLapMvp.Web.csproj" />
+</Solution>

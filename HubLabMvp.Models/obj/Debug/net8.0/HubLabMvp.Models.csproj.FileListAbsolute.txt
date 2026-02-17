@@ -1,0 +1,11 @@
+C:\Users\dsanchezm\source\repos\HubLapMvp\HubLabMvp.Models\bin\Debug\net8.0\HubLabMvp.Models.deps.json
+C:\Users\dsanchezm\source\repos\HubLapMvp\HubLabMvp.Models\bin\Debug\net8.0\HubLabMvp.Models.dll
+C:\Users\dsanchezm\source\repos\HubLapMvp\HubLabMvp.Models\bin\Debug\net8.0\HubLabMvp.Models.pdb
+C:\Users\dsanchezm\source\repos\HubLapMvp\HubLabMvp.Models\obj\Debug\net8.0\HubLabMvp.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dsanchezm\source\repos\HubLapMvp\HubLabMvp.Models\obj\Debug\net8.0\HubLabMvp.Models.AssemblyInfoInputs.cache
+C:\Users\dsanchezm\source\repos\HubLapMvp\HubLabMvp.Models\obj\Debug\net8.0\HubLabMvp.Models.AssemblyInfo.cs
+C:\Users\dsanchezm\source\repos\HubLapMvp\HubLabMvp.Models\obj\Debug\net8.0\HubLabMvp.Models.csproj.CoreCompileInputs.cache
+C:\Users\dsanchezm\source\repos\HubLapMvp\HubLabMvp.Models\obj\Debug\net8.0\HubLabMvp.Models.dll
+C:\Users\dsanchezm\source\repos\HubLapMvp\HubLabMvp.Models\obj\Debug\net8.0\refint\HubLabMvp.Models.dll
+C:\Users\dsanchezm\source\repos\HubLapMvp\HubLabMvp.Models\obj\Debug\net8.0\HubLabMvp.Models.pdb
+C:\Users\dsanchezm\source\repos\HubLapMvp\HubLabMvp.Models\obj\Debug\net8.0\ref\HubLabMvp.Models.dll
