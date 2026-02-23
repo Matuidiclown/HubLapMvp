@@ -4,7 +4,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace HubLap.Web.Controllers
 {
-    public class RoomController : Controller
+    [ApiController] // Importante para que aparezca en Swagger
+    [Route("api/[controller]")]
+    public class RoomController : ControllerBase // Cambiado de Controller a ControllerBase
     {
         private readonly IRoomService _roomService;
 
@@ -13,37 +15,65 @@ namespace HubLap.Web.Controllers
             _roomService = roomService;
         }
 
-        // GET: Room
-        public async Task<IActionResult> Index()
+        // 1. Obtener todas las salas
+        [HttpGet]
+        public async Task<IActionResult> GetAll()
         {
             var rooms = await _roomService.GetAllRooms();
-            return View(rooms); // Necesitarás crear la vista Index.cshtml
+            if (rooms == null || !rooms.Any()) return NotFound("No hay salas registradas.");
+            return Ok(rooms);
         }
 
-        // GET: Room/Create
-        public IActionResult Create()
+        // 2. Obtener salas por categoría
+        [HttpGet("category/{categoryId}")]
+        public async Task<IActionResult> GetByCategory(int categoryId)
         {
-            return View();
-        }
+            // Ahora 'GetRoomsByCategory' ya no saldrá en rojo porque está en la Interface
+            var rooms = await _roomService.GetRoomsByCategory(categoryId);
 
-        // POST: Room/Create
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(Room room)
-        {
-            if (ModelState.IsValid)
+            if (rooms == null || !rooms.Any())
             {
-                try
-                {
-                    await _roomService.CreateRoom(room);
-                    return RedirectToAction(nameof(Index));
-                }
-                catch (Exception ex)
-                {
-                    ModelState.AddModelError("", ex.Message);
-                }
+                return Ok(new { message = $"No se encontraron espacios para la categoría {categoryId}." });
             }
-            return View(room);
+
+            return Ok(rooms);
+        }
+
+        // 3. Crear una nueva sala (Escritorio, Cancha, etc.)
+        [HttpPost]
+        public async Task<IActionResult> Create([FromBody] Room room)
+        {
+            try
+            {
+                await _roomService.CreateRoom(room);
+                return Ok(new { message = "Espacio creado exitosamente" });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { error = ex.Message });
+            }
+        }
+
+        // 4. Actualizar sala
+        [HttpPut]
+        public async Task<IActionResult> Update([FromBody] Room room)
+        {
+            await _roomService.UpdateRoom(room);
+            return Ok(new { message = "Espacio actualizado" });
+        }
+
+        // 5. Eliminar (Baja lógica)
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(int id)
+        {
+            await _roomService.DeleteRoom(id);
+            return Ok(new { message = "Espacio desactivado" });
+        }
+        [HttpGet("categories-list")]
+        public async Task<IActionResult> GetCategoriesList()
+        {
+            var categories = await _roomService.GetRoomCategories();
+            return Ok(categories);
         }
     }
 }

@@ -9,31 +9,26 @@ namespace HubLap.Business.Services
 {
     public class RoomService : IRoomService
     {
+        
         private readonly IRoomRepository _roomRepository;
-
-        public RoomService(IRoomRepository roomRepository)
+        public async Task<IEnumerable<Room>> GetRoomsByCategory(int categoryId)
         {
-            _roomRepository = roomRepository;
+            // Conectamos el servicio con el repositorio que ya arreglamos
+            return await _roomRepository.GetRoomsByCategory(categoryId);
         }
 
-        public async Task<IEnumerable<Room>> GetAllRooms()
+        public RoomService(IRoomRepository roomRepository) => _roomRepository = roomRepository;
+
+        public async Task<IEnumerable<Room>> GetAllRooms() => await _roomRepository.GetAllRooms();
+
+        public async Task CreateRoom(Room room) => await _roomRepository.CreateRoom(room);
+
+        public async Task UpdateRoom(Room room) => await _roomRepository.UpdateRoom(room);
+
+        public async Task DeleteRoom(int id) => await _roomRepository.DeleteRoom(id);
+        public async Task<IEnumerable<dynamic>> GetRoomCategories()
         {
-            return await _roomRepository.GetRooms();
-        }
-
-        public async Task CreateRoom(Room room)
-        {
-            // Validaciones de Negocio
-            if (string.IsNullOrWhiteSpace(room.Name))
-                throw new ArgumentException("El nombre de la sala es obligatorio.");
-
-            if (room.Capacity <= 0)
-                throw new ArgumentException("La capacidad debe ser mayor a 0.");
-
-            if (string.IsNullOrWhiteSpace(room.Location))
-                throw new ArgumentException("La ubicación es obligatoria.");
-
-            await _roomRepository.AddRoom(room);
+            return await _roomRepository.GetRoomCategories();
         }
     }
 }

@@ -21,32 +21,29 @@ namespace HubLap.Web.Controllers
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
-            try
+            var bookings = await _bookingService.GetAllBookings();
+
+            // Si la lista es nula o no tiene elementos
+            if (bookings == null || !bookings.Any())
             {
-                var bookings = await _bookingService.GetAllBookings();
-                if (bookings == null) return NotFound(new { message = "Reserva no encontrada" });
-                return Ok(bookings);
+                return Ok(new { message = "No se encontraron reservas registradas en el sistema." });
             }
-            catch (Exception ex)
-            {
-                return BadRequest(new { error = ex.Message });
-            }
+
+            return Ok(bookings);
         }
 
         // 2. GET: api/Booking/5 (Obtener por ID)
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
-            try
+            var booking = await _bookingService.GetBookingById(id);
+
+            if (booking == null)
             {
-                var booking = await _bookingService.GetBookingById(id);
-                if (booking == null) return NotFound(new { message = "Reserva no encontrada" });
-                return Ok(booking);
+                return NotFound(new { message = $"La reserva con ID {id} no existe o ha sido cancelada." });
             }
-            catch (Exception ex)
-            {
-                return BadRequest(new { error = ex.Message });
-            }
+
+            return Ok(booking);
         }
 
         // 3. POST: api/Booking (Crear)
@@ -90,6 +87,15 @@ namespace HubLap.Web.Controllers
         {
             await _bookingService.DeleteBooking(id);
             return Ok(new { message = "Reserva cancelada correctamente" });
+        }
+        [HttpGet("user/{userId}")]
+        public async Task<IActionResult> GetByUserId(int userId)
+        {
+            var bookings = await _bookingService.GetBookingsByUserId(userId);
+            if (bookings == null || !bookings.Any())
+                return Ok(new { message = "Este usuario no tiene reservas activas." });
+
+            return Ok(bookings);
         }
     }
 }

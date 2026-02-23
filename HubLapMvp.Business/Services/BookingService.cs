@@ -18,34 +18,24 @@ namespace HubLap.Business.Services
 
         public async Task CreateBooking(BookingHeader booking)
         {
-            // Validamos la fecha de inicio contra el servidor (UTC o Local según tu BD)
             if (booking.BookingStart < DateTime.Now)
-            {
                 throw new ArgumentException("No se puede reservar en una fecha pasada.");
-            }
 
-            // Validamos que no sea al revés
             if (booking.BookingEnd <= booking.BookingStart)
-            {
                 throw new ArgumentException("La fecha de fin debe ser posterior a la de inicio.");
-            }
 
-            // Validamos duración (Máximo 5 horas)
             var duration = booking.BookingEnd - booking.BookingStart;
             if (duration.TotalHours > 5)
-            {
                 throw new ArgumentException("Las reservas no pueden exceder las 5 horas.");
-            }
 
             await _bookingRepository.CreateBooking(booking);
         }
 
-        // DENTRO DE BookingService.cs
         public async Task<IEnumerable<BookingHeader>> GetAllBookings()
         {
-            // El Service le pide los datos al Repository, NO a la DB directamente
             return await _bookingRepository.GetAllBookings();
         }
+
         public async Task<BookingHeader?> GetBookingById(int id)
         {
             return await _bookingRepository.GetBookingById(id);
@@ -62,9 +52,22 @@ namespace HubLap.Business.Services
             await _bookingRepository.UpdateBooking(booking);
         }
 
+        public async Task<bool> CancelBooking(int id)
+        {
+            // Ahora sí va a reconocer el método porque ya lo pusiste en la interfaz
+            await _bookingRepository.CancelBooking(id);
+            return true;
+        }
+
+        public async Task<IEnumerable<BookingHeader>> GetBookingsByUserId(int userId)
+        {
+            return await _bookingRepository.GetBookingsByUserId(userId);
+        }
         public async Task DeleteBooking(int id)
         {
+            // Cambia _bookingRepository.CancelBooking por .DeleteBooking
             await _bookingRepository.DeleteBooking(id);
         }
+
     }
 }

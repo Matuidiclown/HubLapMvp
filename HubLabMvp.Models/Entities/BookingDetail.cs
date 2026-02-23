@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HubLap.Models.Entities
 {
-    public class BookingDetail : Entity
+    public class BookingDetail
     {
         public int BookingHeaderId { get; set; }
         public int RoomId { get; set; }

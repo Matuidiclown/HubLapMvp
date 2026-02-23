@@ -11,5 +11,7 @@ namespace HubLap.Business.Interfaces
         Task<BookingHeader?> GetBookingById(int id);
         Task UpdateBooking(BookingHeader booking);
         Task DeleteBooking(int id);
+        Task<IEnumerable<BookingHeader>> GetBookingsByUserId(int userId);
+        Task<bool> CancelBooking(int bookingId);
     }
 }

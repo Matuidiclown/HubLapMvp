@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace HubLap.Models.Entities
 {
-    public class RoomType : Entity
+    public class RoomType
     {
+        public int RoomTypeId { get; set; }
         public string Name { get; set; } = string.Empty;
         public string Description { get; set; } = string.Empty;
     }

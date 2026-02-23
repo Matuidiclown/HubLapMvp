@@ -6,17 +6,16 @@ using System.Threading.Tasks;
 
 namespace HubLap.Models.Entities
 {
-    public class Room : Entity
+    public class Room
     {
-        public int RoomTypeId { get; set; }
+        public int RoomId { get; set; }
+        public int RoomCategoryId { get; set; }
+        public string CategoryName { get; set; } = string.Empty; // Agrega esto
         public string Name { get; set; } = string.Empty;
         public int Capacity { get; set; }
         public string Location { get; set; } = string.Empty;
         public bool HasProjector { get; set; }
         public bool HasWhiteboard { get; set; }
         public string Description { get; set; } = string.Empty;
-
-        // Propiedad extra para mostrar el nombre del tipo en la vista
-        public string RoomTypeName { get; set; } = string.Empty;
     }
 }

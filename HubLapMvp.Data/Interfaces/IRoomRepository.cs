@@ -6,8 +6,11 @@ namespace HubLap.Data.Interfaces
 {
     public interface IRoomRepository
     {
-        Task<IEnumerable<Room>> GetRooms();
-        Task AddRoom(Room room);
-        // Aquí puedes agregar más métodos a futuro: GetRoomById, UpdateRoom, etc.
+        Task<IEnumerable<Room>> GetAllRooms();
+        Task<IEnumerable<Room>> GetRoomsByCategory(int categoryId);
+        Task<IEnumerable<dynamic>> GetRoomCategories();
+        Task CreateRoom(Room room);
+        Task UpdateRoom(Room room);
+        Task DeleteRoom(int id);
     }
 }
