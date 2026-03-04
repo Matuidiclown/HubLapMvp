@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="LAPS.Core/LAPS.Business.csproj" Id="92e97ef6-490f-4cd7-b655-99229c561438" />
+  <Project Path="LAPS.Data/LAPS.Data.csproj" Id="eaae4fd7-b190-418b-bc57-28c710c0a037" />
+  <Project Path="LAPS.Models/LAPS.Models.csproj" Id="0439d283-7d19-4cc2-918d-64c19a2ade10" />
+  <Project Path="LAPS.Web/LAPS.Web.csproj" Id="96844457-73ab-43d1-937e-123525326630" />
+</Solution>

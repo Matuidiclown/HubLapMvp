@@ -1,0 +1,17 @@
+C:\Users\dsanchezm\source\repos\LAPS\LAPS.Core\bin\Debug\net8.0\LAPS.Business.deps.json
+C:\Users\dsanchezm\source\repos\LAPS\LAPS.Core\bin\Debug\net8.0\LAPS.Business.dll
+C:\Users\dsanchezm\source\repos\LAPS\LAPS.Core\bin\Debug\net8.0\LAPS.Business.pdb
+C:\Users\dsanchezm\source\repos\LAPS\LAPS.Core\bin\Debug\net8.0\LAPS.Data.dll
+C:\Users\dsanchezm\source\repos\LAPS\LAPS.Core\bin\Debug\net8.0\LAPS.Models.dll
+C:\Users\dsanchezm\source\repos\LAPS\LAPS.Core\bin\Debug\net8.0\LAPS.Data.pdb
+C:\Users\dsanchezm\source\repos\LAPS\LAPS.Core\bin\Debug\net8.0\LAPS.Models.pdb
+C:\Users\dsanchezm\source\repos\LAPS\LAPS.Core\obj\Debug\net8.0\LAPS.Business.csproj.AssemblyReference.cache
+C:\Users\dsanchezm\source\repos\LAPS\LAPS.Core\obj\Debug\net8.0\LAPS.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dsanchezm\source\repos\LAPS\LAPS.Core\obj\Debug\net8.0\LAPS.Business.AssemblyInfoInputs.cache
+C:\Users\dsanchezm\source\repos\LAPS\LAPS.Core\obj\Debug\net8.0\LAPS.Business.AssemblyInfo.cs
+C:\Users\dsanchezm\source\repos\LAPS\LAPS.Core\obj\Debug\net8.0\LAPS.Business.csproj.CoreCompileInputs.cache
+C:\Users\dsanchezm\source\repos\LAPS\LAPS.Core\obj\Debug\net8.0\LAPS.Bus.81875A1A.Up2Date
+C:\Users\dsanchezm\source\repos\LAPS\LAPS.Core\obj\Debug\net8.0\LAPS.Business.dll
+C:\Users\dsanchezm\source\repos\LAPS\LAPS.Core\obj\Debug\net8.0\refint\LAPS.Business.dll
+C:\Users\dsanchezm\source\repos\LAPS\LAPS.Core\obj\Debug\net8.0\LAPS.Business.pdb
+C:\Users\dsanchezm\source\repos\LAPS\LAPS.Core\obj\Debug\net8.0\ref\LAPS.Business.dll

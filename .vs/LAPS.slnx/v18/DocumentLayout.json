@@ -1,0 +1,433 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dsanchezm\\source\\repos\\LAPS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{96844457-73AB-43D1-937E-123525326630}|LAPS.Web\\LAPS.Web.csproj|c:\\users\\dsanchezm\\source\\repos\\laps\\laps.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96844457-73AB-43D1-937E-123525326630}|LAPS.Web\\LAPS.Web.csproj|solutionrelative:laps.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96844457-73AB-43D1-937E-123525326630}|LAPS.Web\\LAPS.Web.csproj|c:\\users\\dsanchezm\\source\\repos\\laps\\laps.web\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96844457-73AB-43D1-937E-123525326630}|LAPS.Web\\LAPS.Web.csproj|solutionrelative:laps.web\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAE4FD7-B190-418B-BC57-28C710C0A037}|LAPS.Data\\LAPS.Data.csproj|c:\\users\\dsanchezm\\source\\repos\\laps\\laps.data\\repositories\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAE4FD7-B190-418B-BC57-28C710C0A037}|LAPS.Data\\LAPS.Data.csproj|solutionrelative:laps.data\\repositories\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92E97EF6-490F-4CD7-B655-99229C561438}|LAPS.Core\\LAPS.Business.csproj|c:\\users\\dsanchezm\\source\\repos\\laps\\laps.core\\services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92E97EF6-490F-4CD7-B655-99229C561438}|LAPS.Core\\LAPS.Business.csproj|solutionrelative:laps.core\\services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0439D283-7D19-4CC2-918D-64C19A2ADE10}|LAPS.Models\\LAPS.Models.csproj|c:\\users\\dsanchezm\\source\\repos\\laps\\laps.models\\entities\\bookingdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0439D283-7D19-4CC2-918D-64C19A2ADE10}|LAPS.Models\\LAPS.Models.csproj|solutionrelative:laps.models\\entities\\bookingdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAE4FD7-B190-418B-BC57-28C710C0A037}|LAPS.Data\\LAPS.Data.csproj|c:\\users\\dsanchezm\\source\\repos\\laps\\laps.data\\core\\idataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAE4FD7-B190-418B-BC57-28C710C0A037}|LAPS.Data\\LAPS.Data.csproj|solutionrelative:laps.data\\core\\idataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92E97EF6-490F-4CD7-B655-99229C561438}|LAPS.Core\\LAPS.Business.csproj|c:\\users\\dsanchezm\\source\\repos\\laps\\laps.core\\interfaces\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92E97EF6-490F-4CD7-B655-99229C561438}|LAPS.Core\\LAPS.Business.csproj|solutionrelative:laps.core\\interfaces\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92E97EF6-490F-4CD7-B655-99229C561438}|LAPS.Core\\LAPS.Business.csproj|c:\\users\\dsanchezm\\source\\repos\\laps\\laps.core\\services\\roomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92E97EF6-490F-4CD7-B655-99229C561438}|LAPS.Core\\LAPS.Business.csproj|solutionrelative:laps.core\\services\\roomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAE4FD7-B190-418B-BC57-28C710C0A037}|LAPS.Data\\LAPS.Data.csproj|c:\\users\\dsanchezm\\source\\repos\\laps\\laps.data\\repositories\\roomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAE4FD7-B190-418B-BC57-28C710C0A037}|LAPS.Data\\LAPS.Data.csproj|solutionrelative:laps.data\\repositories\\roomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96844457-73AB-43D1-937E-123525326630}|LAPS.Web\\LAPS.Web.csproj|c:\\users\\dsanchezm\\source\\repos\\laps\\laps.web\\controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96844457-73AB-43D1-937E-123525326630}|LAPS.Web\\LAPS.Web.csproj|solutionrelative:laps.web\\controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92E97EF6-490F-4CD7-B655-99229C561438}|LAPS.Core\\LAPS.Business.csproj|c:\\users\\dsanchezm\\source\\repos\\laps\\laps.core\\interfaces\\iroomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92E97EF6-490F-4CD7-B655-99229C561438}|LAPS.Core\\LAPS.Business.csproj|solutionrelative:laps.core\\interfaces\\iroomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAE4FD7-B190-418B-BC57-28C710C0A037}|LAPS.Data\\LAPS.Data.csproj|c:\\users\\dsanchezm\\source\\repos\\laps\\laps.data\\core\\sqlserverdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAE4FD7-B190-418B-BC57-28C710C0A037}|LAPS.Data\\LAPS.Data.csproj|solutionrelative:laps.data\\core\\sqlserverdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAE4FD7-B190-418B-BC57-28C710C0A037}|LAPS.Data\\LAPS.Data.csproj|c:\\users\\dsanchezm\\source\\repos\\laps\\laps.data\\interfaces\\iroomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAE4FD7-B190-418B-BC57-28C710C0A037}|LAPS.Data\\LAPS.Data.csproj|solutionrelative:laps.data\\interfaces\\iroomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAE4FD7-B190-418B-BC57-28C710C0A037}|LAPS.Data\\LAPS.Data.csproj|c:\\users\\dsanchezm\\source\\repos\\laps\\laps.data\\interfaces\\ibookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAE4FD7-B190-418B-BC57-28C710C0A037}|LAPS.Data\\LAPS.Data.csproj|solutionrelative:laps.data\\interfaces\\ibookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96844457-73AB-43D1-937E-123525326630}|LAPS.Web\\LAPS.Web.csproj|c:\\users\\dsanchezm\\source\\repos\\laps\\laps.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{96844457-73AB-43D1-937E-123525326630}|LAPS.Web\\LAPS.Web.csproj|solutionrelative:laps.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96844457-73AB-43D1-937E-123525326630}|LAPS.Web\\LAPS.Web.csproj|c:\\users\\dsanchezm\\source\\repos\\laps\\laps.web\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{96844457-73AB-43D1-937E-123525326630}|LAPS.Web\\LAPS.Web.csproj|solutionrelative:laps.web\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAE4FD7-B190-418B-BC57-28C710C0A037}|LAPS.Data\\LAPS.Data.csproj|c:\\users\\dsanchezm\\source\\repos\\laps\\laps.data\\context\\dappercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAE4FD7-B190-418B-BC57-28C710C0A037}|LAPS.Data\\LAPS.Data.csproj|solutionrelative:laps.data\\context\\dappercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAE4FD7-B190-418B-BC57-28C710C0A037}|LAPS.Data\\LAPS.Data.csproj|c:\\users\\dsanchezm\\source\\repos\\laps\\laps.data\\laps.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EAAE4FD7-B190-418B-BC57-28C710C0A037}|LAPS.Data\\LAPS.Data.csproj|solutionrelative:laps.data\\laps.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0439D283-7D19-4CC2-918D-64C19A2ADE10}|LAPS.Models\\LAPS.Models.csproj|c:\\users\\dsanchezm\\source\\repos\\laps\\laps.models\\entities\\bookingheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0439D283-7D19-4CC2-918D-64C19A2ADE10}|LAPS.Models\\LAPS.Models.csproj|solutionrelative:laps.models\\entities\\bookingheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0439D283-7D19-4CC2-918D-64C19A2ADE10}|LAPS.Models\\LAPS.Models.csproj|c:\\users\\dsanchezm\\source\\repos\\laps\\laps.models\\entities\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0439D283-7D19-4CC2-918D-64C19A2ADE10}|LAPS.Models\\LAPS.Models.csproj|solutionrelative:laps.models\\entities\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0439D283-7D19-4CC2-918D-64C19A2ADE10}|LAPS.Models\\LAPS.Models.csproj|c:\\users\\dsanchezm\\source\\repos\\laps\\laps.models\\entities\\roomcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0439D283-7D19-4CC2-918D-64C19A2ADE10}|LAPS.Models\\LAPS.Models.csproj|solutionrelative:laps.models\\entities\\roomcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\10.0.103\\Sdks\\Microsoft.NET.Sdk.Razor\\targets\\Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96844457-73AB-43D1-937E-123525326630}|LAPS.Web\\LAPS.Web.csproj|c:\\users\\dsanchezm\\source\\repos\\laps\\laps.web\\laps.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{96844457-73AB-43D1-937E-123525326630}|LAPS.Web\\LAPS.Web.csproj|solutionrelative:laps.web\\laps.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96844457-73AB-43D1-937E-123525326630}|LAPS.Web\\LAPS.Web.csproj|c:\\users\\dsanchezm\\source\\repos\\laps\\laps.web\\dtos\\bookingrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96844457-73AB-43D1-937E-123525326630}|LAPS.Web\\LAPS.Web.csproj|solutionrelative:laps.web\\dtos\\bookingrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAE4FD7-B190-418B-BC57-28C710C0A037}|LAPS.Data\\LAPS.Data.csproj|c:\\users\\dsanchezm\\source\\repos\\laps\\laps.data\\laps.data.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{EAAE4FD7-B190-418B-BC57-28C710C0A037}|LAPS.Data\\LAPS.Data.csproj|solutionrelative:laps.data\\laps.data.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BookingController.cs",
+              "DocumentMoniker": "C:\\Users\\dsanchezm\\source\\repos\\LAPS\\LAPS.Web\\Controllers\\BookingController.cs",
+              "RelativeDocumentMoniker": "LAPS.Web\\Controllers\\BookingController.cs",
+              "ToolTip": "C:\\Users\\dsanchezm\\source\\repos\\LAPS\\LAPS.Web\\Controllers\\BookingController.cs",
+              "RelativeToolTip": "LAPS.Web\\Controllers\\BookingController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T17:24:37.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RoomsController.cs",
+              "DocumentMoniker": "C:\\Users\\dsanchezm\\source\\repos\\LAPS\\LAPS.Web\\Controllers\\RoomsController.cs",
+              "RelativeDocumentMoniker": "LAPS.Web\\Controllers\\RoomsController.cs",
+              "ToolTip": "C:\\Users\\dsanchezm\\source\\repos\\LAPS\\LAPS.Web\\Controllers\\RoomsController.cs",
+              "RelativeToolTip": "LAPS.Web\\Controllers\\RoomsController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAywCsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T17:24:58.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RoomRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dsanchezm\\source\\repos\\LAPS\\LAPS.Data\\Repositories\\RoomRepository.cs",
+              "RelativeDocumentMoniker": "LAPS.Data\\Repositories\\RoomRepository.cs",
+              "ToolTip": "C:\\Users\\dsanchezm\\source\\repos\\LAPS\\LAPS.Data\\Repositories\\RoomRepository.cs",
+              "RelativeToolTip": "LAPS.Data\\Repositories\\RoomRepository.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T17:17:55.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dsanchezm\\source\\repos\\LAPS\\LAPS.Web\\Program.cs",
+              "RelativeDocumentMoniker": "LAPS.Web\\Program.cs",
+              "ToolTip": "C:\\Users\\dsanchezm\\source\\repos\\LAPS\\LAPS.Web\\Program.cs",
+              "RelativeToolTip": "LAPS.Web\\Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T17:19:29.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IRoomService.cs",
+              "DocumentMoniker": "C:\\Users\\dsanchezm\\source\\repos\\LAPS\\LAPS.Core\\Interfaces\\IRoomService.cs",
+              "RelativeDocumentMoniker": "LAPS.Core\\Interfaces\\IRoomService.cs",
+              "ToolTip": "C:\\Users\\dsanchezm\\source\\repos\\LAPS\\LAPS.Core\\Interfaces\\IRoomService.cs",
+              "RelativeToolTip": "LAPS.Core\\Interfaces\\IRoomService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T18:17:52.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookingRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dsanchezm\\source\\repos\\LAPS\\LAPS.Data\\Repositories\\BookingRepository.cs",
+              "RelativeDocumentMoniker": "LAPS.Data\\Repositories\\BookingRepository.cs",
+              "ToolTip": "C:\\Users\\dsanchezm\\source\\repos\\LAPS\\LAPS.Data\\Repositories\\BookingRepository.cs",
+              "RelativeToolTip": "LAPS.Data\\Repositories\\BookingRepository.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA3wCUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T17:27:37.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BookingService.cs",
+              "DocumentMoniker": "C:\\Users\\dsanchezm\\source\\repos\\LAPS\\LAPS.Core\\Services\\BookingService.cs",
+              "RelativeDocumentMoniker": "LAPS.Core\\Services\\BookingService.cs",
+              "ToolTip": "C:\\Users\\dsanchezm\\source\\repos\\LAPS\\LAPS.Core\\Services\\BookingService.cs",
+              "RelativeToolTip": "LAPS.Core\\Services\\BookingService.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T17:23:05.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookingDetail.cs",
+              "DocumentMoniker": "C:\\Users\\dsanchezm\\source\\repos\\LAPS\\LAPS.Models\\Entities\\BookingDetail.cs",
+              "RelativeDocumentMoniker": "LAPS.Models\\Entities\\BookingDetail.cs",
+              "ToolTip": "C:\\Users\\dsanchezm\\source\\repos\\LAPS\\LAPS.Models\\Entities\\BookingDetail.cs",
+              "RelativeToolTip": "LAPS.Models\\Entities\\BookingDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T17:18:53.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IDataAccess.cs",
+              "DocumentMoniker": "C:\\Users\\dsanchezm\\source\\repos\\LAPS\\LAPS.Data\\Core\\IDataAccess.cs",
+              "RelativeDocumentMoniker": "LAPS.Data\\Core\\IDataAccess.cs",
+              "ToolTip": "C:\\Users\\dsanchezm\\source\\repos\\LAPS\\LAPS.Data\\Core\\IDataAccess.cs",
+              "RelativeToolTip": "LAPS.Data\\Core\\IDataAccess.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T19:14:19.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RoomService.cs",
+              "DocumentMoniker": "C:\\Users\\dsanchezm\\source\\repos\\LAPS\\LAPS.Core\\Services\\RoomService.cs",
+              "RelativeDocumentMoniker": "LAPS.Core\\Services\\RoomService.cs",
+              "ToolTip": "C:\\Users\\dsanchezm\\source\\repos\\LAPS\\LAPS.Core\\Services\\RoomService.cs",
+              "RelativeToolTip": "LAPS.Core\\Services\\RoomService.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAgwDoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T17:22:57.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IBookingService.cs",
+              "DocumentMoniker": "C:\\Users\\dsanchezm\\source\\repos\\LAPS\\LAPS.Core\\Interfaces\\IBookingService.cs",
+              "RelativeDocumentMoniker": "LAPS.Core\\Interfaces\\IBookingService.cs",
+              "ToolTip": "C:\\Users\\dsanchezm\\source\\repos\\LAPS\\LAPS.Core\\Interfaces\\IBookingService.cs",
+              "RelativeToolTip": "LAPS.Core\\Interfaces\\IBookingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T18:18:14.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SqlServerDataAccess.cs",
+              "DocumentMoniker": "C:\\Users\\dsanchezm\\source\\repos\\LAPS\\LAPS.Data\\Core\\SqlServerDataAccess.cs",
+              "RelativeDocumentMoniker": "LAPS.Data\\Core\\SqlServerDataAccess.cs",
+              "ToolTip": "C:\\Users\\dsanchezm\\source\\repos\\LAPS\\LAPS.Data\\Core\\SqlServerDataAccess.cs",
+              "RelativeToolTip": "LAPS.Data\\Core\\SqlServerDataAccess.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T19:14:43.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IRoomRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dsanchezm\\source\\repos\\LAPS\\LAPS.Data\\Interfaces\\IRoomRepository.cs",
+              "RelativeDocumentMoniker": "LAPS.Data\\Interfaces\\IRoomRepository.cs",
+              "ToolTip": "C:\\Users\\dsanchezm\\source\\repos\\LAPS\\LAPS.Data\\Interfaces\\IRoomRepository.cs",
+              "RelativeToolTip": "LAPS.Data\\Interfaces\\IRoomRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T18:16:22.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IBookingRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dsanchezm\\source\\repos\\LAPS\\LAPS.Data\\Interfaces\\IBookingRepository.cs",
+              "RelativeDocumentMoniker": "LAPS.Data\\Interfaces\\IBookingRepository.cs",
+              "ToolTip": "C:\\Users\\dsanchezm\\source\\repos\\LAPS\\LAPS.Data\\Interfaces\\IBookingRepository.cs",
+              "RelativeToolTip": "LAPS.Data\\Interfaces\\IBookingRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T18:16:55.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\dsanchezm\\source\\repos\\LAPS\\LAPS.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "LAPS.Web\\appsettings.json",
+              "ToolTip": "C:\\Users\\dsanchezm\\source\\repos\\LAPS\\LAPS.Web\\appsettings.json",
+              "RelativeToolTip": "LAPS.Web\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-23T17:16:30.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\dsanchezm\\source\\repos\\LAPS\\LAPS.Web\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "LAPS.Web\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\dsanchezm\\source\\repos\\LAPS\\LAPS.Web\\Properties\\launchSettings.json",
+              "RelativeToolTip": "LAPS.Web\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-23T19:38:54.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DapperContext.cs",
+              "DocumentMoniker": "C:\\Users\\dsanchezm\\source\\repos\\LAPS\\LAPS.Data\\Context\\DapperContext.cs",
+              "RelativeDocumentMoniker": "LAPS.Data\\Context\\DapperContext.cs",
+              "ToolTip": "C:\\Users\\dsanchezm\\source\\repos\\LAPS\\LAPS.Data\\Context\\DapperContext.cs",
+              "RelativeToolTip": "LAPS.Data\\Context\\DapperContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T17:16:16.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LAPS.Data.csproj",
+              "DocumentMoniker": "C:\\Users\\dsanchezm\\source\\repos\\LAPS\\LAPS.Data\\LAPS.Data.csproj",
+              "RelativeDocumentMoniker": "LAPS.Data\\LAPS.Data.csproj",
+              "ToolTip": "C:\\Users\\dsanchezm\\source\\repos\\LAPS\\LAPS.Data\\LAPS.Data.csproj",
+              "RelativeToolTip": "LAPS.Data\\LAPS.Data.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-23T17:17:33.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BookingHeader.cs",
+              "DocumentMoniker": "C:\\Users\\dsanchezm\\source\\repos\\LAPS\\LAPS.Models\\Entities\\BookingHeader.cs",
+              "RelativeDocumentMoniker": "LAPS.Models\\Entities\\BookingHeader.cs",
+              "ToolTip": "C:\\Users\\dsanchezm\\source\\repos\\LAPS\\LAPS.Models\\Entities\\BookingHeader.cs",
+              "RelativeToolTip": "LAPS.Models\\Entities\\BookingHeader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T17:18:36.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Room.cs",
+              "DocumentMoniker": "C:\\Users\\dsanchezm\\source\\repos\\LAPS\\LAPS.Models\\Entities\\Room.cs",
+              "RelativeDocumentMoniker": "LAPS.Models\\Entities\\Room.cs",
+              "ToolTip": "C:\\Users\\dsanchezm\\source\\repos\\LAPS\\LAPS.Models\\Entities\\Room.cs",
+              "RelativeToolTip": "LAPS.Models\\Entities\\Room.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T17:15:08.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RoomCategory.cs",
+              "DocumentMoniker": "C:\\Users\\dsanchezm\\source\\repos\\LAPS\\LAPS.Models\\Entities\\RoomCategory.cs",
+              "RelativeDocumentMoniker": "LAPS.Models\\Entities\\RoomCategory.cs",
+              "ToolTip": "C:\\Users\\dsanchezm\\source\\repos\\LAPS\\LAPS.Models\\Entities\\RoomCategory.cs",
+              "RelativeToolTip": "LAPS.Models\\Entities\\RoomCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T17:19:07.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\10.0.103\\Sdks\\Microsoft.NET.Sdk.Razor\\targets\\Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\10.0.103\\Sdks\\Microsoft.NET.Sdk.Razor\\targets\\Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\10.0.103\\Sdks\\Microsoft.NET.Sdk.Razor\\targets\\Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\10.0.103\\Sdks\\Microsoft.NET.Sdk.Razor\\targets\\Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-02-23T18:51:23.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LAPS.Web.csproj",
+              "DocumentMoniker": "C:\\Users\\dsanchezm\\source\\repos\\LAPS\\LAPS.Web\\LAPS.Web.csproj",
+              "RelativeDocumentMoniker": "LAPS.Web\\LAPS.Web.csproj",
+              "ToolTip": "C:\\Users\\dsanchezm\\source\\repos\\LAPS\\LAPS.Web\\LAPS.Web.csproj",
+              "RelativeToolTip": "LAPS.Web\\LAPS.Web.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-23T17:09:34.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "BookingRequest.cs",
+              "DocumentMoniker": "C:\\Users\\dsanchezm\\source\\repos\\LAPS\\LAPS.Web\\DTOs\\BookingRequest.cs",
+              "RelativeDocumentMoniker": "LAPS.Web\\DTOs\\BookingRequest.cs",
+              "ToolTip": "C:\\Users\\dsanchezm\\source\\repos\\LAPS\\LAPS.Web\\DTOs\\BookingRequest.cs",
+              "RelativeToolTip": "LAPS.Web\\DTOs\\BookingRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T18:03:15.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "LAPS.Data",
+              "DocumentMoniker": "C:\\Users\\dsanchezm\\source\\repos\\LAPS\\LAPS.Data\\LAPS.Data.csproj",
+              "RelativeDocumentMoniker": "LAPS.Data\\LAPS.Data.csproj",
+              "ToolTip": "C:\\Users\\dsanchezm\\source\\repos\\LAPS\\LAPS.Data\\LAPS.Data.csproj",
+              "RelativeToolTip": "LAPS.Data\\LAPS.Data.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-23T17:08:27.337Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 164,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
